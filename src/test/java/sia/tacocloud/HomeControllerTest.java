@@ -1,5 +1,6 @@
 package sia.tacocloud;
 
+
 import static org.hamcrest.Matchers.containsString;
 import static org.springframework.test.web.servlet.request.MockMvcRequestBuilders.get;
 import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.content;
@@ -18,12 +19,12 @@ public class HomeControllerTest {
     private MockMvc mockMvc;
 
     @Test
-    public void testHomePage() throws Exception{
+    public void testHomePage() throws Exception {
         mockMvc.perform(get("/"))
                 .andExpect(status().isOk())
                 .andExpect(view().name("home"))
-                .andExpect(content().string(containsString("Welcome to ...")));
+                .andExpect(content().string(
+                        containsString("Welcome to...")));
     }
-
 
 }
