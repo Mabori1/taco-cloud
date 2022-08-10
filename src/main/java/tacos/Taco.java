@@ -1,4 +1,4 @@
-package tacoc;
+package tacos;
 
 import lombok.Data;
 

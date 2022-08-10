@@ -1,8 +1,6 @@
-package tacoc;
+package tacos;
 
 import lombok.Data;
-
-import java.lang.reflect.Type;
 
 @Data
 public class Ingredient {
