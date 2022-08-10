@@ -1,4 +1,4 @@
 spring:
   datasource:
-    name: tacocloud
-    generate-unique-name: false
+  generate-unique-name: false
+  name: tacocloud
