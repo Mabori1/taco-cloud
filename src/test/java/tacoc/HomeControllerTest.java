@@ -1,4 +1,4 @@
-package sia.tacocloud;
+package tacoc;
 
 
 import static org.hamcrest.Matchers.containsString;

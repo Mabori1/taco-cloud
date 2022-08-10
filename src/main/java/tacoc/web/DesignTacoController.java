@@ -1,12 +1,12 @@
-package sia.tacocloud.web;
+package tacoc.web;
 
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.*;
-import sia.tacocloud.Ingredient;
-import sia.tacocloud.Taco;
-import sia.tacocloud.TacoOrder;
+import tacoc.Ingredient;
+import tacoc.Taco;
+import tacoc.TacoOrder;
 
 import java.util.Arrays;
 import java.util.List;
